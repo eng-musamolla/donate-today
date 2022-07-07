@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+.clr {
+    clear: both;
+}
+
+
+
+/*  ==================================================
+                     Header Section Start
+    ==================================================  */
+#Head_item {
+    background: url("../images/donation1.jpg") no-repeat center;
+    background-size: 1440px 713px;
+    height: 669px;
+}
+
+#Head_item .item {
+    background: linear-gradient(180deg, rgb(0 0 0 / 25%) 0%, rgb(0 0 0 / 40%) 50%, rgb(0 0 0 / 78%) 100%);
+    height: 669px;
+    width: 1440px;
+    margin: auto;
+}
+
+#Head_item .text_area {
+    height: 320px;
+    width: 826px;
+    margin: auto;
+    padding-top: 174px;
+    text-align: -webkit-center;
+}
+
+#Head_item h1 {
+
+    color: #FFFFFF;
+    font-size: 65px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+#Head_item p {
+
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 691px;
+    margin-top: 20px;
+    margin-bottom: 46px;
+}
+
+a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 16px 20.5px;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+
+
+/*  ==================================================
+                     Header Section End
+    ==================================================  */
+/*  ==================================================
+                     Donate Section Start
+    ==================================================  */
+#Donate_item {
+    height: 320px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: -webkit-center;
+}
+
+
+
+#Donate_item .text_area {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.title {
+    font-size: 65px;
+    font-family: 'Inter', sans-serif;
+    /* width: 691px; */
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 65px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.donate_tex {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#Donate_item .text_area .item p {
+
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #707070;
+    padding-top: 43px;
+}
+
+
+#Donate_item .item {
+    border: 3px solid #FAFAFA;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 135px;
+    height: 123px;
+    margin-top: 20px;
+    margin-bottom: 46px;
+    background-color: #FAFAFA;
+    padding: 0 12px;
+}
+
+#Donate_item .item:hover {
+
+    border: 3px solid #FF5959;
+    background-color: #FFEEEE;
+}
+
+#Donate_item .item:hover p {
+    color: #FF5959;
+}
+
+#Donate_item .Head_item a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 16px 20.5px;
+    background-color: #FF5959;
+}
+
+#Donate_item input {
+    outline: 0;
+    border-width: 0 0 2px;
+    padding: 10px;
+    text-align: -webkit-center;
+    width: 831px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 46px;
+}
+
+/*  ==================================================
+                     Donate Section End
+    ==================================================  */
+/*  ==================================================
+                    Donation plan Item Start
+    ==================================================  */
+
+
+#Donation_plan {
+    margin: auto;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+
+#Donation_plan .item {
+    border: 3px solid #FAFAFA;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 30%;
+    height: 352px;
+    background-color: #FAFAFA;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#Donation_plan .food {
+    background-color: #cccccc45;
+}
+
+#Donation_plan .shelter {
+    background-color: #ff59593f;
+}
+
+#Donation_plan .Frame {
+    background-color: #FFF4D6;
+}
+
+#Donation_plan .text_area {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#Donation_plan img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#Donation_plan h3 {
+    margin-bottom: 15px;
+
+}
+
+
+
+/*  ==================================================
+                    Donation plan Item End
+    ==================================================  */
+
+/* ==================================
+            Contact Us Start
+    ====================================*/
+
+#Contact_Us h2 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #13103a;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+#Contact_Us h2 span {
+    color: #ffad5a;
+}
+
+#Contact_Us .contact_info {
+    float: left;
+    width: 35%;
+
+}
+
+#Contact_Us .contact_form {
+    float: left;
+    width: 65%;
+
+}
+
+.contact_form .row {
+    padding: 30px 0;
+}
+
+.contact_form .Name {
+    width: 26%;
+    float: left;
+}
+
+.contact_form .Email {
+    width: 26%;
+    float: left;
+    margin: 0 64px;
+}
+
+.contact_form .Subject {
+    width: 26%;
+    float: left;
+}
+
+.contact_form .Message {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #b3d9db;
+    font-size: 16px;
+    font-weight: 50;
+    color: #585858;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+    margin-bottom: 42px;
+    float: left;
+}
+
+.contact_form {
+    margin-bottom: 40px;
+}
+
+
+.contact_info .contact_title {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1d3557;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.single-contact-info .info-title {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #585858;
+    margin-bottom: 13px;
+}
+
+#Contact_Us .contact_info .contact-info-wrapper h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #12b2fc;
+    margin-bottom: 14.5px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+
+}
+
+
+.contact_info .contact-info-wrapper {
+    background-color: #ebf7f8;
+    border-radius: 5px;
+    padding: 31px;
+    margin-right: 40px;
+}
+
+.contact_form .contact-title {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #1d3557;
+}
+
+.single-form input:not([type="checkbox"]):not([type="radio"]),
+.single-form textarea {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #b3d9db;
+    font-size: 16px;
+    font-weight: 50;
+    color: #585858;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+}
+
+/* ==================================
+            Contact Us End
+    ====================================*/
+
+
+/*  ==================================================
+                My Updates Item Start 
+    ==================================================  */
+#My_updates {
+    margin: auto;
+    margin-top: 100px;
+}
+
+#My_updates .text_area {
+    background-color: #8b6b14;
+    text-align: center;
+    padding: 76px 0;
+
+
+}
+
+#My_updates input {
+    height: 48px;
+    width: 60%;
+    background-color: #D9D9D9;
+    border-radius: 5px 0 0 5px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+
+}
+
+#My_updates button {
+    height: 48px;
+    width: 20%;
+    background-color: #FF5959;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    color: #FFFFFF;
+    margin-left: -10px;
+
+}
+
+/*  ==================================================
+                My Updates Item End
+    ==================================================  */
+
+/*  ==================================================
+                Footer part Start
+    ==================================================  */
+
+
+
+footer {
+    background-color: #0B0D17;
+    padding: 43px 0;
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+
+footer h1 {
+    font-size: 36px;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    color: #FF5959;
+    text-align: center;
+
+}
+
+footer p {
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    color: #D9DBE1;
+    margin-top: 24px;
+    text-align: center;
+}
+
+/*  ==================================================
+                        Footer part Start
+    ==================================================  */
